@@ -8,9 +8,9 @@ class ApbAr extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 69,
+      height: 96,
       width: MediaQuery.of(context).size.width,
-      color: const Color.fromARGB(127, 41, 152, 167),
+      color: Colors.transparent,
       child: Row(
         children: [
           const SizedBox(
